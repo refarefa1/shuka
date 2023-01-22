@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "fruit.cwd2dhmstsps.eu-central-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "fruitConnection",
+            "database": "fruit_db",
+            "username": "admin"
+        }
+    ]
+}
