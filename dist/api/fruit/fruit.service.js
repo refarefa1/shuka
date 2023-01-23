@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fruitService = void 0;
-const db_1 = require("../db");
+const db_1 = require("../../db");
 function getFruits(cb) {
     try {
         const queryString = `SELECT * FROM fruit`;
@@ -9,6 +9,7 @@ function getFruits(cb) {
             if (err)
                 console.log(err);
             const fruits = result;
+            console.log('THIS IS MY FRUITASSS', fruits);
             cb(fruits);
         });
     }

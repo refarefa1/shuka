@@ -1,5 +1,5 @@
 import { RowDataPacket } from "mysql2";
-import { db } from "../db";
+import { db } from "../../db";
 
 function getFruits(cb: Function) {
     try {
@@ -7,6 +7,8 @@ function getFruits(cb: Function) {
         return db.query(queryString, (err, result) => {
             if (err) console.log(err)
             const fruits = <RowDataPacket[]>result;
+            console.log('THIS IS MY FRUITASSS',fruits);
+            
             cb(fruits)
         })
     } catch (err) {

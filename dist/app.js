@@ -30,7 +30,7 @@ const dotenv = __importStar(require("dotenv"));
 const express_1 = __importDefault(require("express"));
 const bodyParser = __importStar(require("body-parser"));
 const path_1 = __importDefault(require("path"));
-const fruit_routes_1 = require("./routes/fruit.routes");
+const fruit_routes_1 = require("./api/fruit/fruit.routes");
 const app = (0, express_1.default)();
 dotenv.config();
 app.use(bodyParser.json());
@@ -43,7 +43,7 @@ app.use(express_1.default.static(path_1.default.resolve(__dirname, 'public')));
 app.get('/**', (req, res) => {
     res.sendFile(path_1.default.join(__dirname, 'public', 'index.html'));
 });
-app.use("/api/fruit", fruit_routes_1.fruitRouter);
+app.use("/api/fruit", fruit_routes_1.router);
 app.listen(process.env.PORT, () => {
     console.log("Node server started running", process.env.PORT);
 });

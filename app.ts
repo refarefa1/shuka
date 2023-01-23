@@ -3,7 +3,7 @@ import express from "express"
 import * as bodyParser from "body-parser"
 import cors from 'cors'
 import path from 'path'
-import { fruitRouter } from "./routes/fruit.routes"
+import { router as fruitRouter } from "./api/fruit/fruit.routes"
 
 const app = express()
 dotenv.config()
