@@ -19,7 +19,7 @@ app.use(cors(corsOptions))
 app.use("/api/fruit", fruitRouter)
 
 app.get('/**', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dist', 'index.html'))
+    res.sendFile(path.join(__dirname, '', 'index.html'))
 })
 
 

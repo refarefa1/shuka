@@ -42,7 +42,7 @@ const corsOptions = {
 app.use((0, cors_1.default)(corsOptions));
 app.use("/api/fruit", fruit_routes_1.fruitRouter);
 app.get('/**', (req, res) => {
-    res.sendFile(path_1.default.join(__dirname, 'dist', 'index.html'));
+    res.sendFile(path_1.default.join(__dirname, '', 'index.html'));
 });
 app.listen(process.env.PORT, () => {
     console.log("Node server started running", process.env.PORT);
