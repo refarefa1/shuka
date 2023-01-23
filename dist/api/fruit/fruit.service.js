@@ -9,7 +9,6 @@ function getFruits(cb) {
             if (err)
                 console.log(err);
             const fruits = result;
-            console.log('THIS IS MY FRUITASSS', fruits);
             cb(fruits);
         });
     }
