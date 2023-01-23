@@ -41,7 +41,7 @@ app.use(bodyParser.json());
 // app.use(cors(corsOptions))
 app.use(express_1.default.static(path_1.default.resolve(__dirname, 'public')));
 app.get('/**', (req, res) => {
-    res.sendFile(path_1.default.join(__dirname, '', 'index.html'));
+    res.sendFile(path_1.default.join(__dirname, 'public', 'index.html'));
 });
 app.use("/api/fruit", fruit_routes_1.fruitRouter);
 app.listen(process.env.PORT, () => {
