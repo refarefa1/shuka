@@ -16,7 +16,6 @@ function getFruits(cb) {
         console.log(err);
     }
 }
-getFruits((fruits) => console.log(fruits));
 function _createDemoData() {
     const fruits = [
         "INSERT INTO `fruit`(`_id`, `name`, `family`, `price`, `imgUrl`) VALUES ('[value-1]','תפוח עץ','fruits','14.90','https://img.freepik.com/free-photo/two-red-apples-isolated-white_114579-73124.jpg?w=1380&t=st=1674332003~exp=1674332603~hmac=12ad2f8cfea1686d9b68de56b5e04f069d56b5661bd2c7365f22a6c6d3b6e367')",
