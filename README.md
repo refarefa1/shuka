@@ -4,6 +4,7 @@
   Fruits and Vegetables e-commerce
 </p>
     <a  href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
+ <hr>
   <br>
 </div>
 
