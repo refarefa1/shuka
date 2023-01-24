@@ -13,6 +13,18 @@ function getFruits(cb: Function) {
         console.log(err)
     }
 }
+function getById(id: string, cb: Function) {
+    try {
+        const queryString = `SELECT * FROM fruit WHERE _id=${id}`
+        return db.query(queryString, (err, result) => {
+            if (err) console.log(err)
+            const fruits = <RowDataPacket[]>result;
+            cb(fruits)
+        })
+    } catch (err) {
+        console.log(err)
+    }
+}
 
 function _createDemoData() {
     const fruits = [
@@ -277,5 +289,6 @@ VALUES (
 }
 
 export const fruitService = {
-    getFruits
+    getFruits,
+    getById
 }

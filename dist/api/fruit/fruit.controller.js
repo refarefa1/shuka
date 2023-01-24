@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getFruits = void 0;
+exports.getById = exports.getFruits = void 0;
 const fruit_service_1 = require("./fruit.service");
 const getFruits = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     fruit_service_1.fruitService.getFruits((fruits) => {
@@ -17,3 +17,10 @@ const getFruits = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     });
 });
 exports.getFruits = getFruits;
+const getById = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(req.params);
+    fruit_service_1.fruitService.getById(req.params.id, (fruit) => {
+        res.json(fruit);
+    });
+});
+exports.getById = getById;

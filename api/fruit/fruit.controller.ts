@@ -8,3 +8,9 @@ export const getFruits: RequestHandler = async (req: Request, res: Response) => 
     })
 }
 
+export const getById: RequestHandler = async (req: Request, res: Response) => {
+    fruitService.getById(req.params.id, (fruit: Fruit) => {
+        res.json(fruit)
+    })
+}
+
