@@ -4,10 +4,10 @@
   Fruits and Vegetables e-commerce
 </p>
     <a  href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
-  
+  <br>
 </div>
 
-<img style="width:100%;margin-top:100px" src="https://storage.googleapis.com/openscreenshot/M%2F0%2F8/VQ5hja80M.png"></img>
+<img style="width:100%" src="https://storage.googleapis.com/openscreenshot/M%2F0%2F8/VQ5hja80M.png"></img>
 
 <!-- TECHNOLOGIES -->
 
