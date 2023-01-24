@@ -1,5 +1,3 @@
-# shuka
-
 <div align="center">
 <h3 align="center">Shuka</h3>
   <p align="center">
