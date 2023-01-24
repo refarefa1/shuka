@@ -3,7 +3,7 @@
   <p align="center">
   Fruits and Vegetables e-commerce
 </p>
-    <a href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
+    <a style="margin-bottom:24px" href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
   
 </div>
 
