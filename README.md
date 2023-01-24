@@ -3,11 +3,11 @@
   <p align="center">
   Fruits and Vegetables e-commerce
 </p>
-    <a style="margin-bottom:24px" href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
+    <a  href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
   
 </div>
 
-<img style="width:100%" src="https://storage.googleapis.com/openscreenshot/M%2F0%2F8/VQ5hja80M.png"></img>
+<img style="width:100%;margin-top:100px" src="https://storage.googleapis.com/openscreenshot/M%2F0%2F8/VQ5hja80M.png"></img>
 
 <!-- TECHNOLOGIES -->
 
