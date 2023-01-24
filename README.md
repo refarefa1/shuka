@@ -2,7 +2,6 @@
 <h2 align="center">Shuka</h2>
   <p align="center">
   Fruits and Vegetables e-commerce
-    <br />
     <a href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
   </p>
 </div>
