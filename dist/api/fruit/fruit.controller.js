@@ -18,7 +18,6 @@ const getFruits = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
 });
 exports.getFruits = getFruits;
 const getById = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(req.params);
     fruit_service_1.fruitService.getById(req.params.id, (fruit) => {
         res.json(fruit);
     });
