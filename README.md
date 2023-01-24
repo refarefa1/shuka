@@ -1,7 +1,7 @@
 <div align="center">
 <h3 align="center">Shuka</h3>
   <p align="center">
-    Fruits and Vegetables e-commerce
+  <h1>Fruits and Vegetables e-commerce</h1>
     <br />
     <a href="https://shuka.onrender.com/#/"><strong>See demo »</strong></a>
   </p>
