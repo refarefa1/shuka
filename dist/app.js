@@ -29,17 +29,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv = __importStar(require("dotenv"));
 const express_1 = __importDefault(require("express"));
 const bodyParser = __importStar(require("body-parser"));
-const cors_1 = __importDefault(require("cors"));
+const path_1 = __importDefault(require("path"));
 const fruit_routes_1 = require("./api/fruit/fruit.routes");
 const app = (0, express_1.default)();
 dotenv.config();
 app.use(bodyParser.json());
-const corsOptions = {
-    origin: ['https://shuka.onrender.com/', 'http://127.0.0.1:5173', 'http://localhost:5173'],
-    credentials: true
-};
-app.use((0, cors_1.default)(corsOptions));
-// app.use(express.static(path.resolve(__dirname, 'public')))
+// const corsOptions = {
+//     origin: ['https://shuka.onrender.com/', 'http://127.0.0.1:5173', 'http://localhost:5173'],
+//     credentials: true
+// }
+// app.use(cors(corsOptions))
+app.use(express_1.default.static(path_1.default.resolve(__dirname, 'public')));
 app.use("/api/fruit", fruit_routes_1.router);
 app.listen(process.env.PORT, () => {
     console.log("Node server started running", process.env.PORT);

@@ -240,7 +240,7 @@ VALUES (
         'עגבנייה',
         'vegetables',
         '14.90',
-        'https://img.freepik.com/premium-photo/red-tomatoes-with-cut-isolated-white_80510-576.jpg?w=1380'
+        'https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg?w=1380&t=st=1674734118~exp=1674734718~hmac=785921b14fcb115b83a67310fb4bd0230a89ad052eaa586790aabfdda972cb6e'
     ),
     (
         'סלק אדום',
